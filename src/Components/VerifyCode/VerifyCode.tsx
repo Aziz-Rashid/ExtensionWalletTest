@@ -40,8 +40,8 @@ const VerifyCode = () => {
                     <p className={style.enterverifycode}>Enter verification code</p>
                     <div className={style.flex}>
                         {arr.map((el) => (
-                            <div>
-                                <input key={el} value={el === 1 ? otpCode.opt1 : el === 2 ? otpCode.opt2 : el === 3 ? otpCode.opt3 : el === 4 ? otpCode.opt4 : el === 5 ? otpCode.opt5 : el === 6 ? otpCode.opt6 : ""} name={`opt${el}`} onChange={(e) => e.target.value.length > 1 ? false : onChangeHandler(e)} className={style.otpInput} type="number" />
+                            <div key={el}>
+                                <input value={el === 1 ? otpCode.opt1 : el === 2 ? otpCode.opt2 : el === 3 ? otpCode.opt3 : el === 4 ? otpCode.opt4 : el === 5 ? otpCode.opt5 : el === 6 ? otpCode.opt6 : ""} name={`opt${el}`} onChange={(e) => e.target.value.length > 1 ? false : onChangeHandler(e)} className={style.otpInput} type="number" />
                             </div>
                         )
                         )}
