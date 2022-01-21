@@ -1,0 +1,53 @@
+.Selection{
+    max-width: 480px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    align-items: center;
+}
+.ActiveButton{
+    background: #FCFCFC;
+    border: 1px solid #BEBEC2;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    padding:6px 12px 6px 12px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #414047;
+    outline: none;
+}
+.DisableButton{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #6F6E73;
+    border: none;
+    outline: none;
+    background: none;
+    outline: none;
+}
+.container{
+    max-width: 480px;
+    width: 90%;
+    margin: auto;
+}
+.ButtonAlign{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.emailwrong{
+    color: red;
+    font-size: 11px;
+}

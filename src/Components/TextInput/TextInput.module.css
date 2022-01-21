@@ -1,0 +1,20 @@
+.inputPhone{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    background: #FCFCFC;
+    border: 1px solid #BEBEC2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px 20px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #828282;
+    outline: none;
+}
+.inputPhone:focus{
+    border: 2px solid #885FFF;
+}
